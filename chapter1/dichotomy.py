@@ -17,9 +17,11 @@ def binary_search(list, item):
     while low < high:
         # 如果mid不是整数，则向下取整
         mid = math.floor((low + high) / 2)
+        # 根据索引获取列表中中间位置的值guess
         guess = list[mid]
         if guess == item:
             return mid
+        # 通过将中间位置的列表值与给定数据进行对比，缩小范围
         if guess < item:
             low = mid + 1
         else:

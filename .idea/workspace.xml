@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9896661f-a197-49c8-ac29-5cb10c08179e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter1/dichotomy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Algorithm_python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Algorithm_python.iml" afterDir="false" />
+    <list default="true" id="9896661f-a197-49c8-ac29-5cb10c08179e" name="Default Changelist" comment="算法图解一：二分查找的python实现">
+      <change afterPath="$PROJECT_DIR$/chapter2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter2/selectSort.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter1/dichotomy.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter1/dichotomy.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +65,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.selectSort">
     <configuration name="dichotomy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -72,8 +96,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="selectSort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter2/selectSort.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.selectSort" />
         <item itemvalue="Python.dichotomy" />
       </list>
     </recent_temporary>
@@ -91,72 +138,84 @@
       <updated>1598533797669</updated>
       <workItem from="1598533799627" duration="79000" />
       <workItem from="1598534279671" duration="573000" />
-      <workItem from="1598534872897" duration="807000" />
+      <workItem from="1598534872897" duration="1900000" />
     </task>
+    <task id="LOCAL-00001" summary="算法图解一：二分查找的python实现">
+      <created>1598535826184</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598535826184</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="算法图解一：二分查找的python实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="算法图解一：二分查找的python实现" />
   </component>
   <component name="WindowStateProjectService">
     <state x="743" y="227" key="#Python" timestamp="1598535679704">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="743" y="227" key="#Python/0.0.1920.1040@0.0.1920.1040" timestamp="1598535679704" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1598535572932">
+    <state x="558" y="84" key="CommitChangelistDialog2" timestamp="1598535809123">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598535572932" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1598535572932">
+    <state x="558" y="84" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598535809123" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1598536776866">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598535572932" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1598535572932">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598536776866" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1598536776866">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598535572932" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1598535572932">
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598536776866" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1598536776866">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598535572932" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1598535572933">
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598536776866" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1598536776866">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598535572933" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1598535572933">
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598536776866" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1598536776866">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598535572933" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1598535572932">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598536776866" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1598536776866">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598535572932" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1598535572933">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598536776866" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1598536776866">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598535572933" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1598535057343">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598536776866" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1598536776866">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598535057343" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/chapter1/dichotomy.py</url>
-          <line>31</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/chapter1/dichotomy.py</url>
-          <line>16</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598536776866" />
+    <state x="358" y="159" key="SettingsEditor" timestamp="1598536755087">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="358" y="159" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1598536755087" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Algorithm_python$dichotomy.coverage" NAME="dichotomy Coverage Results" MODIFIED="1598535556015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter1" />
+    <SUITE FILE_PATH="coverage/Algorithm_python$dichotomy.coverage" NAME="dichotomy Coverage Results" MODIFIED="1598535730937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter1" />
+    <SUITE FILE_PATH="coverage/Algorithm_python$selectSort.coverage" NAME="selectSort Coverage Results" MODIFIED="1598536634985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter2" />
   </component>
 </project>
