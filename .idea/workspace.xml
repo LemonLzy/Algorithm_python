@@ -19,12 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9896661f-a197-49c8-ac29-5cb10c08179e" name="Default Changelist" comment="算法图解一：二分查找的python实现">
-      <change afterPath="$PROJECT_DIR$/chapter2/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter2/selectSort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter1/dichotomy.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter1/dichotomy.py" afterDir="false" />
-    </list>
+    <list default="true" id="9896661f-a197-49c8-ac29-5cb10c08179e" name="Default Changelist" comment="算法图解一：二分查找的python实现" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -139,6 +134,7 @@
       <workItem from="1598533799627" duration="79000" />
       <workItem from="1598534279671" duration="573000" />
       <workItem from="1598534872897" duration="1900000" />
+      <workItem from="1598536789276" duration="380000" />
     </task>
     <task id="LOCAL-00001" summary="算法图解一：二分查找的python实现">
       <created>1598535826184</created>
@@ -147,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598535826184</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="算法图解：选择排序的python实现">
+      <created>1598536872846</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598536872846</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,10 +166,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="算法图解一：二分查找的python实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="算法图解一：二分查找的python实现" />
+    <MESSAGE value="算法图解：选择排序的python实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="算法图解：选择排序的python实现" />
   </component>
   <component name="WindowStateProjectService">
     <state x="743" y="227" key="#Python" timestamp="1598535679704">
