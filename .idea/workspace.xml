@@ -20,9 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9896661f-a197-49c8-ac29-5cb10c08179e" name="Default Changelist" comment="算法图解一：二分查找的python实现">
-      <change afterPath="$PROJECT_DIR$/chapter4/SumRecursion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter4/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter1/BubbleSort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Algorithm_python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Algorithm_python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter2/selectSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter2/selectSort.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +52,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="9f23e222-3f5e-4f0e-baf7-7b758efd5894" />
+  <component name="JupyterTrust" id="7275edbd-5a8b-4e01-9f1a-aebb2820b701" />
   <component name="ProjectId" id="1ggQXo8tmu9xO84jtgV3DE0LUzS" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -64,6 +66,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -72,7 +75,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
-  <component name="RunManager" selected="Python.SumRecursion">
+  <component name="RunManager" selected="Python.selectSort">
     <configuration name="SumRecursion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -141,8 +144,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.SumRecursion" />
         <item itemvalue="Python.selectSort" />
+        <item itemvalue="Python.SumRecursion" />
         <item itemvalue="Python.dichotomy" />
       </list>
     </recent_temporary>
@@ -163,6 +166,9 @@
       <workItem from="1598534872897" duration="1900000" />
       <workItem from="1598536789276" duration="1322000" />
       <workItem from="1600180289410" duration="367000" />
+      <workItem from="1605929358102" duration="3093000" />
+      <workItem from="1606034660242" duration="101000" />
+      <workItem from="1606035164871" duration="393000" />
     </task>
     <task id="LOCAL-00001" summary="算法图解一：二分查找的python实现">
       <created>1598535826184</created>
@@ -210,37 +216,45 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="558" y="84" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1598535809123" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1598536776866">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1506" height="264" key="GridCell.Tab.0.bottom" timestamp="1606034615975">
+      <screen x="0" y="0" width="1549" height="831" />
     </state>
+    <state width="1506" height="264" key="GridCell.Tab.0.bottom/0.0.1549.831@0.0.1549.831" timestamp="1606034615975" />
     <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598536776866" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1598536776866">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1506" height="264" key="GridCell.Tab.0.center" timestamp="1606034615975">
+      <screen x="0" y="0" width="1549" height="831" />
     </state>
+    <state width="1506" height="264" key="GridCell.Tab.0.center/0.0.1549.831@0.0.1549.831" timestamp="1606034615975" />
     <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598536776866" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1598536776866">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1506" height="264" key="GridCell.Tab.0.left" timestamp="1606034615975">
+      <screen x="0" y="0" width="1549" height="831" />
     </state>
+    <state width="1506" height="264" key="GridCell.Tab.0.left/0.0.1549.831@0.0.1549.831" timestamp="1606034615975" />
     <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598536776866" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1598536776866">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1506" height="264" key="GridCell.Tab.0.right" timestamp="1606034615975">
+      <screen x="0" y="0" width="1549" height="831" />
     </state>
+    <state width="1506" height="264" key="GridCell.Tab.0.right/0.0.1549.831@0.0.1549.831" timestamp="1606034615975" />
     <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598536776866" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1598536776866">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1506" height="264" key="GridCell.Tab.1.bottom" timestamp="1606034615975">
+      <screen x="0" y="0" width="1549" height="831" />
     </state>
+    <state width="1506" height="264" key="GridCell.Tab.1.bottom/0.0.1549.831@0.0.1549.831" timestamp="1606034615975" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1598536776866" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1598536776866">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1506" height="264" key="GridCell.Tab.1.center" timestamp="1606034615975">
+      <screen x="0" y="0" width="1549" height="831" />
     </state>
+    <state width="1506" height="264" key="GridCell.Tab.1.center/0.0.1549.831@0.0.1549.831" timestamp="1606034615975" />
     <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1598536776866" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1598536776866">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1506" height="264" key="GridCell.Tab.1.left" timestamp="1606034615975">
+      <screen x="0" y="0" width="1549" height="831" />
     </state>
+    <state width="1506" height="264" key="GridCell.Tab.1.left/0.0.1549.831@0.0.1549.831" timestamp="1606034615975" />
     <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1598536776866" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1598536776866">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1506" height="264" key="GridCell.Tab.1.right" timestamp="1606034615975">
+      <screen x="0" y="0" width="1549" height="831" />
     </state>
+    <state width="1506" height="264" key="GridCell.Tab.1.right/0.0.1549.831@0.0.1549.831" timestamp="1606034615975" />
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1598536776866" />
     <state x="358" y="159" key="SettingsEditor" timestamp="1598536755087">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -252,7 +266,7 @@
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1598536884465" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Algorithm_python$selectSort.coverage" NAME="selectSort Coverage Results" MODIFIED="1606035489173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter2" />
     <SUITE FILE_PATH="coverage/Algorithm_python$dichotomy.coverage" NAME="dichotomy Coverage Results" MODIFIED="1598535730937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter1" />
-    <SUITE FILE_PATH="coverage/Algorithm_python$selectSort.coverage" NAME="selectSort Coverage Results" MODIFIED="1598536634985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter2" />
   </component>
 </project>
