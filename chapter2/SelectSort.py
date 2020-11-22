@@ -13,7 +13,7 @@
 
 
 # 选择排序
-def selectionSort(array):
+def select_sort(array):
     length = len(array)
     for i in range(length):
         smallest_index = i
@@ -29,7 +29,7 @@ def selectionSort(array):
 """
 if __name__ == '__main__':
     my_list = [4, 2, 1, 9, 3, 6, 7]
-    print(selectionSort(my_list))
+    print(select_sort(my_list))
 
 # # 找出数组中的最小元素
 # def findSmallest(array):
